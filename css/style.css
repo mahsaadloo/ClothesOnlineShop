@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('./bootstrap.css');
+@import url('./_reset.css');
+@import url('./_utilities.css');
+
+nav{
+    background-color: var(--nav-color);
+    height: 10rem;
+    width: 100%;
+    padding: 3rem 5rem 3rem 8rem;
+}
+
+.logo{
+    color: var(--text-color-purple);
+}
+
+.search-bx{
+    border-radius: 50%;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem
+}
+
+select[name="lang"]{
+    border: none;
+    background-color: inherit;
+}
+
+.search-wid{
+    width: 38rem;
+}
+
+.line-nav{
+    border-bottom: .5rem solid #F5F4F2;
+}
+
+.main-pic{
+    background-image: url('../images/main-pic.png');
+    height: 102.4rem;
+}
+
+.grey-pic{
+    background-image: url('../images/grey.png');
+    height: 102.4rem;
+}
+
+.parag{
+    color: white;
+    padding-top: 50rem;
+    padding-left: 10rem;
+    width: 50rem;
+}
+
+.parag-1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.blue-a-tag{
+    color: var(--text-color-blue);
+}
+
+input[class="name"]{
+    border: none;
+    background-color: var(--bg-input-color);
+    padding: 1.5rem 6rem 1.5rem 2rem;
+    border-radius: .5rem;
+}
+
+input[class="pass"]{
+    border: none;
+    background-color: var(--bg-input-color);
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.pass-1{
+    border: none;
+    background-color: var(--bg-input-color);
+    padding: 1rem 1rem 1rem .1rem;
+    border-bottom-right-radius: .5rem;
+    border-top-right-radius:.5rem;
+}
+
+.login-btn{
+    border: none;
+    background-color: var(--bg-color-red);
+    padding: 1.5rem 11.5rem 1.5rem 11.5rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.login-with{
+    color: var(--text-color-light-grey);
+    font-size: 1.2rem;
+}
+
+.list-sec{
+    color: var(--text-color-grey);
+    font-size: 1.8rem;
+}
+
+.main-pic-signup{
+    background-image: url('../images/signup-pic.png');
+    height: 102.4rem;
+}
+
+.signup-btn{
+    border: none;
+    background-color: var(--bg-color-red);
+    padding: 1.5rem 10rem 1.5rem 10rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.upper-nav{
+    background-color: var(--bg-nav-color);
+    height: 4.5rem;
+}
+
+select[name="men"]{
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 5rem;
+}
+
+select[name="sort"]{
+    border: none;
+    background-color: var(--bg-select-color);
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
+
+.main-bg{
+    background-color: #F5F4F2;
+}
+
+.sec-left-main{
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    padding: 5rem 3rem;
+}
+
+.inpt-left{
+    padding: 1rem 4rem;
+    font-size: large;
+    border-radius: 1rem;
+}
+
+.border-redu{
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.color-inpt{
+    height: 4.5rem;
+    width: 4.5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    box-shadow: .5px 3px 2px .5px rgba(0, 0, 0, 0.25);
+}
+
+.sec-right-main{
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.card-product{
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    width: 21rem;
+    height: 21.6rem;
+}
+
+.card-product-1{
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    width: 21rem;
+    height: 21.6rem;
+}
+
+.card-product img{
+    width: 100%;
+    object-fit: cover;
+    padding: 1rem 3rem;
+}
+
+.card-product-1 img{
+    width: 100%;
+    object-fit: cover;
+    padding: .2rem 3rem;
+}
+
+.pricee{
+    color: var(--price-color);
+}
+
+.first-num{
+    border: .1rem solid #CBC7DE;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: #CBC7DE;
+}
+
+.left-desc-pro{
+    background-color: white;
+}
