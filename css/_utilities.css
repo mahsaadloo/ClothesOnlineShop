@@ -72,6 +72,22 @@
     margin-top: -1.5rem;
 }
 
+.mt-10{
+    margin-top: 10rem;
+}
+
+.mt-11{
+    margin-top: 20rem;
+}
+
 .ms-6{
     margin-left: 33rem;
+}
+
+.fs-7{
+    font-size: 4rem;
+}
+
+.fs-8{
+    font-size: 5rem;
 }

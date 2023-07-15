@@ -32,7 +32,7 @@ select[name="lang"]{
 }
 
 .line-nav{
-    border-bottom: .5rem solid #F5F4F2;
+    border-bottom: .3rem solid rgba(0, 0, 0, 0.25);
 }
 
 .main-pic{
@@ -212,4 +212,71 @@ select[name="sort"]{
 
 .left-desc-pro{
     background-color: white;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 7rem 1rem 5rem 2rem;
+    gap: 8rem;
+}
+
+.green-tshirt{
+    border: .1rem solid #B4B4B4;
+}
+
+.right-desc-pro{
+    margin-top: 8rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+    padding: 1rem 10rem 1rem 2rem;
+}
+
+button[name="buy"]{
+    background-color: var(--bg-color-red);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem 3rem;
+}
+
+p[name="cross-l"]{
+    margin-top: 13rem;
+    margin-left: -3rem;
+}
+
+p[name="cross-r"]{
+    margin-top: 13rem;
+    padding-right: 1rem;
+}
+
+.little-card{
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 21.6rem;
+}
+
+.little-card-1{
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 21.6rem;
+}
+
+.little-card img{
+    padding: 1rem 3.5rem;
+}
+
+.little-card-1 img{
+    padding: 1rem 2rem;
+}
+
+.cross-bt-l{
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+
+.cross-bt-r{
+    margin-top: 10rem;
+    margin-left: 5rem;
 }
