@@ -280,3 +280,160 @@ p[name="cross-r"]{
     margin-top: 10rem;
     margin-left: 5rem;
 }
+
+.left-upper-sec{
+    border: none;
+    background-color: white;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    padding: 2rem 10rem 2rem 2rem;
+    border-radius: .5rem;
+}
+
+.volum-border{
+    border: .1rem solid rgba(172, 172, 172, 1);
+    border-radius: .5rem;
+    padding: .5rem 2rem;
+}
+
+.desc-left-upper{
+    color: var(--text-grey);
+}
+
+.minus-plus{
+    color: var(--text-color-red);
+}
+
+.left-lower-sec{
+    border: none;
+    margin-left: 8rem;
+    padding: 2rem 2rem 3rem 3rem;
+    border-radius: .5rem;
+}
+
+.border-left-lower-sec{
+    border-bottom: .1rem solid #DADADA;
+    margin-left: -3rem;
+    margin-right: -2rem;
+}
+
+select[name="delivery"]{
+    border: .1rem solid #B7B7B7;
+    background-color: inherit;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+select[name="Courier"]{
+    border: .1rem solid #B7B7B7;
+    background-color: inherit;
+    border-radius: 1rem;
+    padding: 1rem 12rem 1rem 1rem;
+}
+
+.right-sec{
+    border-radius: .5rem;
+    height: 39rem;
+}
+
+.border-right-sec{
+    border-bottom: .1rem solid #DADADA;
+    margin-left: -3rem;
+    margin-right: -6rem;
+}
+
+button[name="apply"]{
+    background-color: var(--bg-color-red);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem 4rem;
+}
+
+input[name="promocode"]{
+    border: .1rem solid #A9A9A9;
+    border-radius: 1rem;
+    padding: 1rem 10rem 1rem 1rem;
+}
+
+button[name="payment"]{
+    background-color: var(--bg-color-red);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 10rem;
+}
+
+.bg-image-pay{
+    background-image: url('../images/Rectangle\ 19.png');
+    height: 100rem;
+    padding-top: 5rem;
+}
+
+.main-payment{
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 3rem 5rem 3rem 3rem;
+}
+
+.border-pay-1{
+    border: .1rem solid #C2C2C2;
+    border-radius: 1rem;
+    padding: .3rem .4rem;
+}
+
+.border-pay{
+    border: .1rem solid #C2C2C2;
+    border-radius: 1rem;
+    padding: .3rem 2.5rem;
+}
+
+.border-pay-2{
+    border: .1rem solid #C2C2C2;
+    border-radius: 1rem;
+    padding: .1rem 2rem;
+}
+
+.next-button{
+    margin-top: 8rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--bg-color-red);
+    color: white;
+    padding: .5rem 2rem;
+}
+
+.main-confirm{
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 3rem 2rem;
+}
+
+.box-confirm{
+    border: .1rem solid #707070;
+    border-radius: 1rem;
+    padding: 2rem 2rem 5rem 2rem;
+    margin-top: 5rem;
+}
+
+.border-box-confirm{
+    border: none;
+    border-bottom: .1rem solid #707070;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.confirm-button{
+    border: .2rem solid #E42C14;
+    border-radius: 1rem;
+    background-color: white;
+    color: var(--bg-color-red);
+    padding: .5rem 5rem;
+    margin-top: 5rem;
+}

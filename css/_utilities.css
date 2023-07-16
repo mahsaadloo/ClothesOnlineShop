@@ -56,12 +56,16 @@
     padding-top: 8rem;
 }
 
+.pt-7{
+    padding-top: 3rem;
+}
+
 .pb-6{
     padding-bottom: 10rem;
 }
 
-.gap-6{
-    gap: 4rem;
+.pe-6{
+    padding-right: 6rem;
 }
 
 .mt-8{
@@ -80,8 +84,20 @@
     margin-top: 20rem;
 }
 
+.mt-12{
+    margin-top: 8rem;
+}
+
 .ms-6{
     margin-left: 33rem;
+}
+
+.ms-7{
+    margin-left: -1rem;
+}
+
+.ms-8{
+    margin-left: 7rem;
 }
 
 .fs-7{
@@ -90,4 +106,32 @@
 
 .fs-8{
     font-size: 5rem;
+}
+
+.text-graay{
+    color: #4D4D4D;
+}
+
+.text-graay-1{
+    color: #6A6A6A;
+}
+
+.text-graay-2{
+    color: #767676;
+}
+
+.text-graay-3{
+    color: #575757;
+}
+
+.text-graay-4{
+    color: #404040;
+}
+
+.text-lightred{
+    color: #E42C14;
+}
+
+.gap-6{
+    gap: 4rem;
 }

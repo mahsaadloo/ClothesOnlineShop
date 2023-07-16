@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Product</title>
+    <title>form-pemesanan</title>
 </head>
 <body>
     <header>
@@ -42,85 +42,101 @@
         <div class="line-nav"></div>
     </header>
 
-    <main class="main-bg">
-        <section class="d-flex">
-            <div class="left-desc-pro d-flex">
-                <div class="d-flex flex-column gap-3">
-                    <img src="./images/green.png" alt="" class="green-tshirt">
-                    <img src="./images/blue.png" alt="">
-                    <img src="./images/black.png" alt="">
-                </div>
-                <p name="cross-l"> < </p>
+    <main class="main-bg d-flex gap-6">
+        <section class="w-50 pb-6">
+            <div class="d-flex left-upper-sec">
                 <div>
-                    <img src="./images/main-tshirt.png" alt="">
+                    <img src="./images/Group 7.png" alt="">
                 </div>
-                <p name="cross-r"> > </p>
+                <div class="ps-5 pt-4">
+                    <p>T-shirt</p>
+                    <p class="desc-left-upper mt-8">
+                        variant: Green <br>
+                        Size : L
+                    </p>
+                    <h2 class="fw-bold">Rp80.000</h2>
+                    <div class="d-flex justify-content-between gap-5 volum-border mt-4">
+                        <span class="minus-plus fw-bold"> - </span>
+                        <span style="color:#A0A0A0;" class="fw-bold"> 1 </span>
+                        <span class="minus-plus fw-bold"> + </span>
+                    </div>
+                </div>
             </div>
-            <div class="right-desc-pro">
-                <h1 class="fs-7 mb-4">T-shirt</h1>
-                <p>
-                    Basic T-shirt for your daily activity. <br>
-                    simple, comfortable material, and ecofriendly
-                </p>
-                <h1 class="fs-8 mt-10">Rp80.000</h1>
-                <button name="buy" class="mt-4"><a href="./form-pemesanan.html">BUY</a></button>
+            <div class="mt-5 bg-white left-lower-sec">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <div class="mb-2">
+                            <span class="fw-bold">Home</span>
+                            <span> &nbsp; - &nbsp; I Putu Gede Bayu Raditya Pratama (085706264055)</span>
+                        </div>
+                        <p class="text-graay-1">Jl. Pulau Kae, Kec. Denpasar Bar., Kota Denpasar, Bali, 80114 </p>
+                    </div>
+                    <div class="mt-4">
+                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.585876 0.423584L6.2475 6.08533L0.585876 11.7469" stroke="black"/>
+                        </svg>   
+                    </div>
+                </div>
+                <div class="border-left-lower-sec mt-2"></div>
+                <div class="d-flex justify-content-between">
+                    <div class="mt-4">
+                        <h3 class="pb-3 ms-2">Choose Delivery</h3>
+                        <select name="delivery" id="delivery">
+                            <option value="delivery">Reguler (3-5 days)</option>
+                        </select>
+                    </div>
+                    <div class="mt-4 pb-4 pe-5">
+                        <h3 class="pb-3 ms-2">Select Courier</h3>
+                        <select name="Courier" id="Courier">
+                            <option value="Courier">JNE</option>
+                        </select>
+                        <p class="fs-5 mt-1 text-graay-2">Rp22.000</p>
+                    </div>
+                </div>
+                <div class="border-left-lower-sec"></div>
+                <div class="d-flex justify-content-between mt-5 pb-4 pe-5">
+                    <div>
+                        <h3 class="fw-bold">Shipping Insurance</h3>
+                    </div>
+                    <div class="form-check form-check-reverse text-lightred">
+                        <input class="form-check-input" type="checkbox" value="" id="price-check">
+                        <label class="form-check-label" for="price-check">Rp1.500</label>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="mt-11 d-flex justify-content-center pb-6">
-            <div>
-                <h1 class="pb-5 mb-5 d-flex justify-content-center">Customers who saw this product also bought</h1>
-                <div class="d-flex gap-5">
-                    <span class="cross-bt-l"> 
-                        <svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.1167 1.3501L2.18117 14.6323L16.1167 28.3501" stroke="#828282" stroke-width="2"/>
-                        </svg>                            
-                     </span>
-                    <div class="little-card border border-opacity-10">
-                        <div>
-                            <img src="./images/c-1.png" alt="">
-                            <div class="d-flex justify-content-between gap-3 mt-4 px-3">
-                                <span>Jacket</span>
-                                <span class="pricee">Rp96.000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="little-card border border-opacity-10">
-                        <div>
-                            <img src="./images/c-2.png" alt="">
-                            <div class="d-flex justify-content-between gap-3 mt-4 px-3">
-                                <span>Dress</span>
-                                <span class="pricee">Rp120.000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="little-card border border-opacity-10">
-                        <div>
-                            <img src="./images/c-3.png" alt="">
-                            <div class="d-flex justify-content-between gap-1 mt-4 pt-3 px-3">
-                                <span>Polo shirt</span>
-                                <span class="pricee">Rp90.000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="little-card-1 border border-opacity-10">
-                        <div>
-                            <img src="./images/c-4.png" alt="">
-                            <div class="d-flex justify-content-between gap-3 mt-3 px-3">
-                                <span>Dress</span>
-                                <span class="pricee">Rp125.000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <span class="cross-bt-r"> 
-                        <svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0.883301 28.3501L14.8188 15.0679L0.883301 1.3501" stroke="#828282" stroke-width="2"/>
-                        </svg>                                                     
-                     </span>
+        <section class="right-sec bg-white mx-5 mt-12 ps-5 pe-6 pt-7">
+            <div class="d-flex justify-content-between gap-4">
+                <div>
+                    <input type="text" name="promocode" id="promocode" placeholder="Enter promo code">
                 </div>
+                <button name="apply" class="fw-bold">Apply</button>
+            </div>
+            <h3 class="mt-5">Shopping Summary</h3>
+            <div class="d-flex justify-content-between mt-3 pe-5">
+                <span class="text-graay">Total price (1 item)</span>
+                <span class="text-graay">Rp80.000</span>
+            </div>
+            <div class="d-flex justify-content-between mt-3 pe-5">
+                <span class="text-graay">Shipping cost</span>
+                <span class="text-graay">Rp22.000</span>
+            </div>
+            <div class="d-flex justify-content-between mt-3 pe-5">
+                <span class="text-graay">Shipping Assurance</span>
+                <span class="text-graay">Rp1.500</span>
+            </div>
+            <div class="border-right-sec mt-4"></div>
+            <div class="d-flex justify-content-between mt-4 pe-5">
+                <h3 class="fw-bold">TOTAL </h3>
+                <h3 class="fw-bold">Rp103.500</h3>
+            </div>
+            <div class="border-right-sec mt-3"></div>
+            <div class="d-flex justify-content-center">
+                <button name="payment" class="mt-5 fw-bold"><a href="./payment.html">PAYMENT -></a></button>
             </div>
         </section>
     </main>
-
+    
     <footer class="d-flex gap-4 p-7 justify-content-between">
         <div class="d-flex gap-2">
             <svg width="104" height="97" viewBox="0 0 104 97" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -159,6 +175,6 @@
             </ul>
         </div>
     </footer>
-    
+
 </body>
 </html>
