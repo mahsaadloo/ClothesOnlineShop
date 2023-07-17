@@ -32,7 +32,7 @@ select[name="lang"]{
 }
 
 .line-nav{
-    border-bottom: .3rem solid rgba(0, 0, 0, 0.25);
+    border-bottom: .1rem solid rgba(0, 0, 0, 0.25);
 }
 
 .main-pic{
@@ -436,4 +436,75 @@ button[name="payment"]{
     color: var(--bg-color-red);
     padding: .5rem 5rem;
     margin-top: 5rem;
+}
+
+.success-main{
+    border: none;
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 5rem 20rem;
+}
+
+.pack-btn{
+    border: none;
+    background-color: #03AC28;
+    color: white;
+    border-radius: 1rem;
+    padding: .5rem 2rem;
+}
+
+.border-process{
+    border: none;
+    border-bottom: .3rem solid #E7E7E7;
+    width: 10rem;
+}
+
+button[name="backtohome"]{
+    border: .2rem solid #E42C14;
+    border-radius: 1rem;
+    background-color: white;
+    color: #E42C14;
+    font-weight: 600;
+    padding: .6rem 7rem;
+    margin-top: 20rem;
+    margin-right: -15rem;
+}
+
+.left-profile-sec{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.edit-pro{
+    border: .1rem solid #F0F0F0;
+    background-color: #F0F0F0;
+    border-radius: .5rem;
+    width: 12rem;
+    padding: 1rem 1.5rem;
+}
+
+.setting-pro{
+    border: .1rem solid white;
+    width: 20rem;
+    padding: 1rem 1.5rem;
+}
+
+input[name="firstname"]{
+    border-radius: .5rem;
+    padding: 1rem 16rem 1rem 1rem;
+}
+
+button[name="profile-btn"]{
+    border: .2rem solid #E42C14;
+    border-radius: .5rem;
+    background-color: white;
+    color: #E42C14;
+    padding: .5rem 1rem;
+}
+
+.border-footer-profile{
+    border: none;
+    border-top: .1rem solid #BBBBBB;
 }

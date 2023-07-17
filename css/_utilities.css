@@ -68,6 +68,19 @@
     padding-right: 6rem;
 }
 
+.pe-7{
+    padding-right: 20rem;
+}
+
+.m-6{
+    margin-top: -9rem;
+    margin-left: 78rem;
+}
+
+.mt-7{
+    margin-top: 5rem;
+}
+
 .mt-8{
     margin-top: -.5rem;
 }
@@ -88,6 +101,14 @@
     margin-top: 8rem;
 }
 
+.mt-13{
+    margin-top: -5rem;
+}
+
+.mt-14{
+    margin-top: -3.5rem;
+}
+
 .ms-6{
     margin-left: 33rem;
 }
@@ -100,12 +121,24 @@
     margin-left: 7rem;
 }
 
+.ms-9{
+    margin-left: 9.5rem;
+}
+
+.me-6{
+    margin-right: 12rem;
+}
+
 .fs-7{
     font-size: 4rem;
 }
 
 .fs-8{
     font-size: 5rem;
+}
+
+.fs-9{
+    font-size: 1.2rem;
 }
 
 .text-graay{
@@ -128,10 +161,30 @@
     color: #404040;
 }
 
+.text-graay-5{
+    color: #484848;
+}
+
+.text-graay-6{
+    color: #656565;
+}
+
 .text-lightred{
     color: #E42C14;
 }
 
+.text-lightred-1{
+    color: #E93535;
+}
+
+.text-lightblack{
+    color: #2C2C2C;
+}
+
 .gap-6{
     gap: 4rem;
+}
+
+.gap-7{
+    gap: 10rem;
 }

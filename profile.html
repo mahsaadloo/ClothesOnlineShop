@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>HOME-belum login</title>
+    <title>profile</title>
 </head>
 <body>
     <header>
@@ -36,240 +36,101 @@
                     <option value="1">English(US)</option>
                 </select>
                 <img src="./images/Bell.png" alt="">
-                <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5845 19.226C22.1545 19.226 23.4272 17.9533 23.4272 16.3833C23.4272 14.8133 22.1545 13.5405 20.5845 13.5405C19.0144 13.5405 17.7417 14.8133 17.7417 16.3833C17.7417 17.9533 19.0144 19.226 20.5845 19.226ZM20.5845 22.0688C23.7245 22.0688 26.27 19.5233 26.27 16.3833C26.27 13.2433 23.7245 10.6978 20.5845 10.6978C17.4444 10.6978 14.8989 13.2433 14.8989 16.3833C14.8989 19.5233 17.4444 22.0688 20.5845 22.0688Z" fill="#000D39"/>
-                    <circle cx="20.7718" cy="20.8794" r="19.576" stroke="black"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5848 22.7977C16.398 22.7977 13.004 26.1917 13.004 30.3785H9.97168C9.97168 24.517 14.7233 19.7654 20.5848 19.7654C26.4463 19.7654 31.1979 24.517 31.1979 30.3785H28.1656C28.1656 26.1917 24.7715 22.7977 20.5848 22.7977Z" fill="#000D39"/>
-                </svg>
+                <a href="./profile.html"><img src="./images/profile.png" alt=""></a>
             </div>
         </nav>
         <div class="line-nav"></div>
-        <section class="upper-nav">
-            <ul class="d-flex justify-content-center gap-5">
-                <li>
-                    <a href=""></a>
-                    <select name="men" id="men">
-                        <option value="men">Men</option>
-                    </select>
-                </li>
-                <li>
-                    <select name="men" id="women">
-                        <option value="women">Women</option>
-                    </select>
-                </li>
-                <li>
-                    <select name="men" id="sports">
-                        <option value="sports">Sports</option>
-                    </select>
-                </li>
-                <li>
-                    <select name="men" id="kids">
-                        <option value="kids">Kids</option>
-                    </select>
-                </li>
+    </header>
+
+    <main class="d-flex gap-7">
+        <section class="w-25 left-profile-sec">
+            <ul>
+                <li class="fs-2 fw-bold">Settings</li>
+                <li class="mt-7 edit-pro">Edit Profile</li>
+                <li class="setting-pro">Account</li>
+                <li class="setting-pro">My Address</li>
+                <li class="setting-pro">Language</li>
+                <li class="setting-pro">Notification</li>
+                <li class="setting-pro">Privacy protection</li>
+                <li class="setting-pro">Policy</li>
+                <li class="setting-pro">Help</li>
+                <li class="setting-pro">Feedback</li>
+                <li class="setting-pro text-lightred-1"><a href="./index.html"> Logout</a></li>
             </ul>
         </section>
-    </header>
-    
-    <main class="main-bg">
-        <section class="d-flex justify-content-end align-items-center gap-4 me-5 pe-5 pt-5">
-            <span>Sort by: </span>
-            <select name="sort" id="sort">
-                <option value="sort">Relevan</option>
-            </select>
+        <section class="w-75 mt-10">
+            <h3>Edit Profile</h3>
+            <div class="mt-5">
+                <img src="./images/Rectangle 170.png" alt="">
+                <img src="./images/Ellipse.png" alt="" class="mt-13 ms-5">
+                <div class="mt-14 ms-9">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16.5103" cy="16.3269" r="15.9029" fill="black" fill-opacity="0.2"/>
+                        <mask id="mask0_55_276" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="8" width="17" height="16">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3807 11.417C21.7224 11.464 22.0092 11.5354 22.2717 11.6442C23.2927 12.0671 24.1038 12.8782 24.5267 13.8992C24.8439 14.6649 24.8439 15.6356 24.8439 17.577C24.8439 19.5184 24.8439 20.4892 24.5267 21.2549C24.1038 22.2759 23.2927 23.0869 22.2717 23.5099C21.5061 23.827 20.5353 23.827 18.5939 23.827H14.4272C12.4858 23.827 11.5151 23.827 10.7494 23.5099C9.72845 23.0869 8.9173 22.2759 8.49441 21.2549C8.17725 20.4892 8.17725 19.5184 8.17725 17.577C8.17725 15.6356 8.17725 14.6649 8.49441 13.8992C8.9173 12.8782 9.72845 12.0671 10.7494 11.6442C11.012 11.5354 11.2987 11.464 11.6404 11.417C11.915 10.453 12.1242 9.90248 12.5293 9.51663C12.6607 9.39156 12.8052 9.28114 12.9604 9.18734C13.5567 8.82703 14.3194 8.82703 15.8447 8.82703H17.1765C18.7018 8.82703 19.4644 8.82703 20.0607 9.18734C20.2159 9.28114 20.3605 9.39156 20.4918 9.51663C20.897 9.90248 21.1062 10.453 21.3807 11.417Z" fill="white"/>
+                        </mask>
+                        <g mask="url(#mask0_55_276)">
+                        <path d="M21.3807 11.417L20.1786 11.7594L20.4021 12.5443L21.2106 12.6554L21.3807 11.417ZM22.2717 11.6442L22.7501 10.4893L22.2717 11.6442ZM24.5267 13.8992L23.3719 14.3775L24.5267 13.8992ZM24.5267 21.2549L23.3719 20.7765L24.5267 21.2549ZM22.2717 23.5099L22.7501 24.6647L22.2717 23.5099ZM10.7494 23.5099L10.271 24.6647L10.7494 23.5099ZM8.49441 21.2549L9.64926 20.7765L8.49441 21.2549ZM8.49441 13.8992L7.33957 13.4208L8.49441 13.8992ZM10.7494 11.6442L11.2278 12.799L10.7494 11.6442ZM11.6404 11.417L11.8106 12.6554L12.6191 12.5443L12.8426 11.7594L11.6404 11.417ZM12.5293 9.51664L13.3914 10.4218L12.5293 9.51664ZM12.9604 9.18735L13.6069 10.2572L12.9604 9.18735ZM20.0607 9.18735L19.4142 10.2572L20.0607 9.18735ZM20.4918 9.51664L21.3539 8.61144L20.4918 9.51664ZM21.2106 12.6554C21.4752 12.6917 21.6532 12.741 21.7934 12.799L22.7501 10.4893C22.3651 10.3299 21.9697 10.2362 21.5509 10.1786L21.2106 12.6554ZM21.7934 12.799C22.5081 13.0951 23.0758 13.6629 23.3719 14.3775L25.6816 13.4208C25.1318 12.0936 24.0773 11.0391 22.7501 10.4893L21.7934 12.799ZM23.3719 14.3775C23.4569 14.5827 23.5218 14.8649 23.5572 15.3823C23.5932 15.9109 23.5939 16.5892 23.5939 17.577H26.0939C26.0939 16.6234 26.0946 15.8456 26.0513 15.2121C26.0074 14.5674 25.9137 13.9814 25.6816 13.4208L23.3719 14.3775ZM23.5939 17.577C23.5939 18.5649 23.5932 19.2431 23.5572 19.7718C23.5218 20.2892 23.4569 20.5714 23.3719 20.7765L25.6816 21.7332C25.9137 21.1727 26.0074 20.5866 26.0513 19.9419C26.0946 19.3084 26.0939 18.5306 26.0939 17.577H23.5939ZM23.3719 20.7765C23.0758 21.4912 22.5081 22.0589 21.7934 22.355L22.7501 24.6647C24.0773 24.1149 25.1318 23.0604 25.6816 21.7332L23.3719 20.7765ZM21.7934 22.355C21.5882 22.44 21.3061 22.5049 20.7887 22.5403C20.26 22.5764 19.5817 22.577 18.5939 22.577V25.077C19.5475 25.077 20.3253 25.0777 20.9588 25.0344C21.6035 24.9905 22.1896 24.8969 22.7501 24.6647L21.7934 22.355ZM18.5939 22.577H14.4272V25.077H18.5939V22.577ZM14.4272 22.577C13.4394 22.577 12.7612 22.5764 12.2325 22.5403C11.7151 22.5049 11.4329 22.44 11.2278 22.355L10.271 24.6647C10.8316 24.8969 11.4176 24.9905 12.0623 25.0344C12.6958 25.0777 13.4736 25.077 14.4272 25.077V22.577ZM11.2278 22.355C10.5131 22.0589 9.94529 21.4912 9.64926 20.7765L7.33957 21.7332C7.88932 23.0604 8.94381 24.1149 10.271 24.6647L11.2278 22.355ZM9.64926 20.7765C9.56429 20.5714 9.4993 20.2892 9.464 19.7718C9.42792 19.2431 9.42725 18.5649 9.42725 17.577H6.92725C6.92725 18.5306 6.92657 19.3084 6.96979 19.9419C7.01378 20.5866 7.10738 21.1727 7.33957 21.7332L9.64926 20.7765ZM9.42725 17.577C9.42725 16.5892 9.42792 15.9109 9.464 15.3823C9.4993 14.8649 9.56429 14.5827 9.64926 14.3775L7.33957 13.4208C7.10738 13.9814 7.01378 14.5674 6.96979 15.2121C6.92657 15.8456 6.92725 16.6234 6.92725 17.577H9.42725ZM9.64926 14.3775C9.94529 13.6629 10.5131 13.0951 11.2278 12.799L10.271 10.4893C8.94381 11.0391 7.88932 12.0936 7.33957 13.4208L9.64926 14.3775ZM11.2278 12.799C11.368 12.741 11.546 12.6917 11.8106 12.6554L11.4702 10.1786C11.0515 10.2362 10.656 10.3299 10.271 10.4893L11.2278 12.799ZM12.8426 11.7594C13.1268 10.7615 13.2662 10.541 13.3914 10.4218L11.6673 8.61144C10.9821 9.26394 10.7031 10.1445 10.4382 11.0746L12.8426 11.7594ZM13.3914 10.4218C13.457 10.3593 13.5293 10.3041 13.6069 10.2572L12.314 8.11751C12.0811 8.25821 11.8643 8.42382 11.6673 8.61144L13.3914 10.4218ZM13.6069 10.2572C13.6859 10.2094 13.8215 10.1511 14.1771 10.116C14.5573 10.0784 15.0572 10.077 15.8447 10.077V7.57703C15.1067 7.57703 14.4627 7.57561 13.9313 7.62813C13.3751 7.68308 12.8312 7.80493 12.314 8.11751L13.6069 10.2572ZM15.8447 10.077H17.1765V7.57703H15.8447V10.077ZM17.1765 10.077C17.9639 10.077 18.4638 10.0784 18.8441 10.116C19.1997 10.1511 19.3352 10.2094 19.4142 10.2572L20.7072 8.11751C20.1899 7.80493 19.6461 7.68308 19.0899 7.62813C18.5584 7.57561 17.9144 7.57703 17.1765 7.57703V10.077ZM19.4142 10.2572C19.4918 10.3041 19.5642 10.3593 19.6298 10.4218L21.3539 8.61144C21.1569 8.42382 20.9401 8.25821 20.7072 8.11751L19.4142 10.2572ZM19.6298 10.4218C19.755 10.541 19.8944 10.7615 20.1786 11.7594L22.5829 11.0746C22.3181 10.1445 22.0391 9.26394 21.3539 8.61144L19.6298 10.4218Z" fill="white"/>
+                        <path d="M19.2189 17.1604C19.2189 15.6646 18.0064 14.452 16.5106 14.452C15.0148 14.452 13.8022 15.6646 13.8022 17.1604C13.8022 18.6561 15.0148 19.8687 16.5106 19.8687C18.0064 19.8687 19.2189 18.6561 19.2189 17.1604Z" stroke="white" stroke-width="1.5"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="m-6">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16.8218" cy="16.1326" r="15.9029" fill="black" fill-opacity="0.2"/>
+                        <mask id="mask0_55_277" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="8" width="18" height="16">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6923 11.2228C22.0339 11.2697 22.3207 11.3412 22.5833 11.45C23.6043 11.8729 24.4154 12.684 24.8383 13.705C25.1554 14.4706 25.1554 15.4414 25.1554 17.3828C25.1554 19.3242 25.1554 20.295 24.8383 21.0606C24.4154 22.0816 23.6043 22.8927 22.5833 23.3156C21.8176 23.6328 20.8469 23.6328 18.9054 23.6328H14.7388C12.7973 23.6328 11.8266 23.6328 11.0609 23.3156C10.04 22.8927 9.22883 22.0816 8.80594 21.0606C8.48877 20.295 8.48877 19.3242 8.48877 17.3828C8.48877 15.4414 8.48877 14.4706 8.80594 13.705C9.22883 12.684 10.04 11.8729 11.0609 11.45C11.3235 11.3412 11.6102 11.2697 11.9519 11.2228C12.2265 10.2588 12.4357 9.70826 12.8408 9.32242C12.9722 9.19735 13.1167 9.08693 13.272 8.99313C13.8682 8.63281 14.6309 8.63281 16.1562 8.63281H17.488C19.0134 8.63281 19.7759 8.63281 20.3723 8.99313C20.5274 9.08693 20.672 9.19735 20.8034 9.32242C21.2085 9.70826 21.4178 10.2588 21.6923 11.2228Z" fill="white"/>
+                        </mask>
+                        <g mask="url(#mask0_55_277)">
+                        <path d="M21.6923 11.2228L20.4901 11.5652L20.7136 12.35L21.5221 12.4611L21.6923 11.2228ZM22.5833 11.45L23.0616 10.2951L22.5833 11.45ZM24.8383 13.705L23.6834 14.1833L24.8383 13.705ZM24.8383 21.0606L23.6834 20.5823L24.8383 21.0606ZM22.5833 23.3156L23.0616 24.4705L22.5833 23.3156ZM11.0609 23.3156L10.5826 24.4705L11.0609 23.3156ZM8.80594 21.0606L9.96079 20.5823L8.80594 21.0606ZM8.80594 13.705L7.65109 13.2266L8.80594 13.705ZM11.0609 11.45L11.5393 12.6048L11.0609 11.45ZM11.9519 11.2228L12.1221 12.4611L12.9306 12.35L13.1541 11.5652L11.9519 11.2228ZM12.8408 9.32242L13.7029 10.2276L12.8408 9.32242ZM13.272 8.99313L13.9184 10.063L13.272 8.99313ZM20.3723 8.99313L19.7258 10.063L20.3723 8.99313ZM20.8034 9.32242L21.6654 8.41722L20.8034 9.32242ZM21.5221 12.4611C21.7868 12.4975 21.9648 12.5468 22.1049 12.6048L23.0616 10.2951C22.6766 10.1357 22.2813 10.042 21.8624 9.98442L21.5221 12.4611ZM22.1049 12.6048C22.8196 12.9009 23.3874 13.4687 23.6834 14.1833L25.9931 13.2266C25.4434 11.8994 24.3889 10.8449 23.0616 10.2951L22.1049 12.6048ZM23.6834 14.1833C23.7684 14.3885 23.8334 14.6706 23.8687 15.1881C23.9048 15.7167 23.9054 16.395 23.9054 17.3828H26.4054C26.4054 16.4292 26.4061 15.6514 26.3629 15.0179C26.3189 14.3732 26.2253 13.7872 25.9931 13.2266L23.6834 14.1833ZM23.9054 17.3828C23.9054 18.3706 23.9048 19.0489 23.8687 19.5776C23.8334 20.095 23.7684 20.3771 23.6834 20.5823L25.9931 21.539C26.2253 20.9785 26.3189 20.3924 26.3629 19.7477C26.4061 19.1142 26.4054 18.3364 26.4054 17.3828H23.9054ZM23.6834 20.5823C23.3874 21.297 22.8196 21.8647 22.1049 22.1608L23.0616 24.4705C24.3889 23.9207 25.4434 22.8662 25.9931 21.539L23.6834 20.5823ZM22.1049 22.1608C21.8998 22.2458 21.6176 22.3107 21.1002 22.3461C20.5715 22.3821 19.8933 22.3828 18.9054 22.3828V24.8828C19.859 24.8828 20.6369 24.8835 21.2704 24.8402C21.915 24.7963 22.5011 24.7026 23.0616 24.4705L22.1049 22.1608ZM18.9054 22.3828H14.7388V24.8828H18.9054V22.3828ZM14.7388 22.3828C13.751 22.3828 13.0727 22.3821 12.544 22.3461C12.0266 22.3107 11.7444 22.2458 11.5393 22.1608L10.5826 24.4705C11.1431 24.7026 11.7292 24.7963 12.3739 24.8402C13.0074 24.8835 13.7852 24.8828 14.7388 24.8828V22.3828ZM11.5393 22.1608C10.8246 21.8647 10.2568 21.297 9.96079 20.5823L7.65109 21.539C8.20085 22.8662 9.25534 23.9207 10.5826 24.4705L11.5393 22.1608ZM9.96079 20.5823C9.87581 20.3771 9.81082 20.095 9.77552 19.5776C9.73945 19.0489 9.73877 18.3706 9.73877 17.3828H7.23877C7.23877 18.3364 7.23809 19.1142 7.28132 19.7477C7.3253 20.3924 7.4189 20.9785 7.65109 21.539L9.96079 20.5823ZM9.73877 17.3828C9.73877 16.395 9.73945 15.7167 9.77552 15.1881C9.81082 14.6706 9.87581 14.3885 9.96079 14.1833L7.65109 13.2266C7.4189 13.7872 7.3253 14.3732 7.28132 15.0179C7.23809 15.6514 7.23877 16.4292 7.23877 17.3828H9.73877ZM9.96079 14.1833C10.2568 13.4687 10.8246 12.9009 11.5393 12.6048L10.5826 10.2951C9.25534 10.8449 8.20085 11.8994 7.65109 13.2266L9.96079 14.1833ZM11.5393 12.6048C11.6795 12.5468 11.8575 12.4975 12.1221 12.4611L11.7818 9.98442C11.363 10.042 10.9676 10.1357 10.5826 10.2951L11.5393 12.6048ZM13.1541 11.5652C13.4383 10.5673 13.5777 10.3468 13.7029 10.2276L11.9788 8.41722C11.2936 9.06972 11.0146 9.95024 10.7497 10.8804L13.1541 11.5652ZM13.7029 10.2276C13.7686 10.1651 13.8408 10.1099 13.9184 10.063L12.6255 7.92329C12.3926 8.06399 12.1758 8.22961 11.9788 8.41722L13.7029 10.2276ZM13.9184 10.063C13.9974 10.0152 14.1331 9.95692 14.4886 9.9218C14.8688 9.88423 15.3688 9.88282 16.1562 9.88282V7.38282C15.4183 7.38282 14.7742 7.3814 14.2428 7.43392C13.6866 7.48887 13.1428 7.61072 12.6255 7.92329L13.9184 10.063ZM16.1562 9.88282H17.488V7.38282H16.1562V9.88282ZM17.488 9.88282C18.2754 9.88282 18.7754 9.88423 19.1556 9.9218C19.5112 9.95692 19.6468 10.0152 19.7258 10.063L21.0188 7.92329C20.5014 7.61072 19.9576 7.48887 19.4014 7.43392C18.8699 7.3814 18.2259 7.38282 17.488 7.38282V9.88282ZM19.7258 10.063C19.8034 10.1099 19.8757 10.1651 19.9414 10.2276L21.6654 8.41722C21.4684 8.22961 21.2516 8.06399 21.0188 7.92329L19.7258 10.063ZM19.9414 10.2276C20.0665 10.3468 20.2059 10.5673 20.4901 11.5652L22.8944 10.8804C22.6296 9.95024 22.3506 9.06972 21.6654 8.41722L19.9414 10.2276Z" fill="white"/>
+                        <path d="M19.5304 16.9661C19.5304 15.4704 18.3179 14.2578 16.8221 14.2578C15.3263 14.2578 14.1138 15.4704 14.1138 16.9661C14.1138 18.4619 15.3263 19.6745 16.8221 19.6745C18.3179 19.6745 19.5304 18.4619 19.5304 16.9661Z" stroke="white" stroke-width="1.5"/>
+                        </g>
+                    </svg>                        
+                </div>
+            </div>
+            <form action="" class="mt-10 me-5 pe-7">
+                <div class="d-flex gap-7">
+                    <div>
+                        <label for="name" class="col-form-label">First Name</label>
+                        <input type="text" name="firstname" id="name" class="form-control fs-4" placeholder="Bayu">
+                    </div>
+                    <div>
+                        <label for="lastname" class="col-form-label">Last Name</label>
+                        <input type="text" name="firstname" id="lastname" class="form-control fs-4" placeholder="Raditya">
+                    </div>
+                </div>
+                <div class="mt-7">
+                    <label for="email" class="col-form-label">Email</label>
+                    <input type="email" name="firstname" id="email" class="form-control fs-4" placeholder="Bayuraditya@gmail.com">
+                </div>
+                <div class="mt-7">
+                    <label for="number" class="col-form-label">Handphone Number</label>
+                    <input type="tel" name="firstname" id="number" class="form-control fs-4" placeholder="085706264055">
+                </div>
+                <div class="mt-7">
+                    <p>Gender</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="male" id="male" value="option1" checked disabled>
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="male" id="female" value="option2" disabled>
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>                      
+                </div>
+                <div class="mt-7">
+                    <p>Birth Date</p>
+                    <input type="text" name="firstname" id="date" placeholder="05/07/02" onfocus="(this.type='date')">
+                </div>
+
+                <div class="mt-7">
+                    <button name="profile-btn">Save Changes</button>
+                </div>
+            </form>
         </section>
-        <div class="d-flex gap-5">
-            <section class="w-20 sec-left-main">
-                <div>
-                    <h2 class="pb-3">Category</h2>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="tshirt">
-                        <label class="form-check-label" for="tshirt"> T-shirt </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="shirt">
-                        <label class="form-check-label" for="shirt"> Shirt </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="poloshirt">
-                        <label class="form-check-label" for="poloshirt"> Polo shirt </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="outerwear">
-                        <label class="form-check-label" for="outerwear"> Outerwear </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="dress">
-                        <label class="form-check-label" for="dress"> Dress </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="other">
-                        <label class="form-check-label" for="other"> Other </label>
-                      </div>
-                      
-                </div>
-                <div class="mt-5">
-                    <h2 class="pb-3">Price</h2>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text fs-3 border-redu" id="first-inp">Rp</span>
-                        <input type="text" class="form-control inpt-left" placeholder="Max price">
-                    </div>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text fs-3 border-redu" id="sec-inp">Rp</span>
-                        <input type="text" class="form-control inpt-left" placeholder="Min price">
-                    </div>
-                </div>
-                <div class="mt-5 pt-5 mb-5 pb-5">
-                    <h2 class="pb-3">Color</h2>
-                    <div class="d-flex gap-4">
-                        <div class="color-inpt" style="background-color: #C100E0;"></div>
-                        <div class="color-inpt" style="background-color: #0022D6;"></div>
-                        <div class="color-inpt" style="background-color: #FF0000;"></div>
-                        <div class="color-inpt" style="background-color: #D3CB00;"></div>
-                    </div>
-                    <div class="d-flex gap-4 pt-5 mb-5 pb-5">
-                        <div class="color-inpt" style="background-color: #00C6E1;"></div>
-                        <div class="color-inpt" style="background-color: #00B612;"></div>
-                        <div class="color-inpt" style="background-color: #000000;"></div>
-                        <div class="color-inpt" style="background-color: #FFFFFF;"></div>
-                    </div>
-                </div>
-            </section>
-            <section class="w-80 sec-right-main">
-                <div class="d-flex gap-5">
-                    <div class="card-product">
-                        <img src="./images/pic-1.png" alt="">
-                        <div class="d-flex justify-content-between gap-6 pt-1 px-3">
-                            <span>T-shirt</span>
-                            <span class="pricee">Rp80.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-2.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-1 px-3">
-                            <span>Dress</span>
-                            <span class="pricee">Rp120.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-3.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-1 px-3">
-                            <span>Blouse</span>
-                            <span class="pricee">Rp110.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-4.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-4 px-3">
-                            <span>Blouse</span>
-                            <span class="pricee">Rp130.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-5 mt-5">
-                    <div class="card-product">
-                        <img src="./images/pic-5.png" alt="">
-                        <div class="d-flex justify-content-between gap-6 pt-1 px-3">
-                            <span>T-shirt</span>
-                            <span class="pricee">Rp80.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-6.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 mt-8 px-3">
-                            <span>Dress</span>
-                            <span class="pricee">Rp120.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-7.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-2 px-3">
-                            <span>Polo shirt</span>
-                            <span class="pricee">Rp90.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-8.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-4 px-3 mt-2">
-                            <span>Dress</span>
-                            <span class="pricee">Rp125.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-5 mt-5">
-                    <div class="card-product">
-                        <img src="./images/pic-9.png" alt="">
-                        <div class="d-flex justify-content-between pt-1 px-3">
-                            <span>Ina football</span>
-                            <span class="pricee">Rp100.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-10.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 mt-9 px-3">
-                            <span>Robe</span>
-                            <span class="pricee">Rp120.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-11.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 mt-8 px-3">
-                            <span>Jacket</span>
-                            <span class="pricee">Rp95.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-12.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-2 px-3 mt-2">
-                            <span>Shirt </span>
-                            <span class="pricee">Rp120.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex gap-5 mt-5 mb-5">
-                    <div class="card-product-1">
-                        <img src="./images/pic-13.png" alt="">
-                        <div class="d-flex justify-content-between gap-6 mt-8 px-3">
-                            <span>Polo shirt</span>
-                            <span class="pricee">Rp90.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-14.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 mt-8 px-3">
-                            <span>Shirt</span>
-                            <span class="pricee">Rp110.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-15.png" alt="">
-                        <div class="d-flex justify-content-between px-3">
-                            <span>MU football</span>
-                            <span class="pricee">Rp100.000</span>
-                        </div>
-                    </div>
-                    <div class="card-product">
-                        <img src="./images/pic-16.png" alt="">
-                        <div class="d-flex justify-content-between gap-5 pt-4 px-3 mt-2">
-                            <span>Dress</span>
-                            <span class="pricee">Rp130.000</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="d-flex gap-3 justify-content-center ms-6 pt-6 pb-6">
-            <span> < </span>
-            <span class="first-num"> 1 </span>
-            <span> 2 </span>
-            <span> 3 </span>
-            <span> 4 </span>
-            <span> .. </span>
-            <span> > </span>
-        </div>
     </main>
 
-    <footer class="d-flex gap-4 p-7 justify-content-between">
+    <footer class="d-flex gap-4 p-7 justify-content-between mt-10 border-footer-profile">
         <div class="d-flex gap-2">
             <svg width="104" height="97" viewBox="0 0 104 97" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect x="0.00732422" y="0.601562" width="103.04" height="95.8723" fill="url(#pattern0)"/>
@@ -307,5 +168,6 @@
             </ul>
         </div>
     </footer>
+    
 </body>
 </html>
